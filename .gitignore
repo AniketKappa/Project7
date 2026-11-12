@@ -1,0 +1,12 @@
+# Raw Chandra data and big intermediate products (re-create them with the scripts)
+data/
+products/**
+!products/
+!products/*/
+!products/*/*.json
+# working plots
+figures/diagnostics/
+# misc
+.DS_Store
+__pycache__/
+*.pyc
